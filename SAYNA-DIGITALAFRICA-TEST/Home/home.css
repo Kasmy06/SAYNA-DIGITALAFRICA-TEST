@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+img{
+    
+   display: flex;
+   justify-content: space-around;
+   gap: 4px;
+}
+
+h1{
+    font-size: 4.8rem;
+    border-color: #B11313;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-size: 4.8rem;
+    border-color: #B11313;
+    font-family: 'Coming Soon', cursive;
+}
+h3{
+    font-size: 14px;
+    line-height: 34px;
+    border-color: #B11313;
+    font-family: 'Coming Soon', cursive;
+}
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+.main-head{
+    background: #b11313;
+    color: white;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+   
+}
+nav ul{
+    display: flex;
+    flex: 1 1 10rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+/*HERO*/
+.hero{
+    min-height:90vh;
+    background: url("../Assets/Illustration/img1.png");
+    background-size: cover;
+    background-position: bottom;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+.hero h2{
+    padding: 8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero h3{
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+div{
+    display: flex;
+    padding: 8rem;
+}
+
+ button{
+    padding: 2rem 6rem 4rem 4rem;
+    border-radius: 25px;
+    color: #B11313;
+    font-size: 4.8rem;
+    cursor: pointer;
+    
+    
+}
+
+
+.btn{
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    padding: 2rem 2rem 2rem 4rem;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease ;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #B11313;
+}
+/*SECTION*/
+.main-section{
+    background-color: #B11313;
+    color: #fff;
+    padding: 8rem;  
+}
+.cinema{
+    
+    background-color: #B11313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 15px;
+    color: #fff;
+}
+.cinema p {
+   
+    padding: 10px 20px 70px;
+}
+/*formulaire*/
+.formulaire{
+    background-color:#114C92 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+aside{
+    color: #fff;
+    padding: 2vw 9vw;
+}
+form{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 40px;
+}
+form input{
+    border: 0;
+    margin: 10px 5px 16px;
+    padding: 10px ;
+    outline:  none;
+    font-size: 12px;
+    border-radius: 40px;
+}
+form button{
+    padding: 15px;
+    background: #114C92;
+    color: wheat;
+    font-size: 13px;
+    border: 1px solid #ffffff;
+    outline: none;
+    cursor: pointer;
+    width: 
+    150px;
+}
+/*footer*/
+footer{
+    min-height: 10vh;
+    background: #000000;
+    margin: auto;
+    padding: 10rem;
+    color: white;
+}
+.footer{
+    
+    display: flex;
+    align-items: center;
+}
+.footer ul{
+
+    display: flex;
+    flex: 1 1 10rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+footer p{
+   text-align: center;
+   font-size: 14px;
+}
+        /*Login */
+.login {
+    background: #B11313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login input{
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px 5px 6px;
+    background: #B11313;
+    width: 250px 100px;
+    padding: 10px ;
+    outline:  none;
+    font-size: 12px;
+    border-radius: 40px;
+}
+.login button{
+    padding: 15px ;
+    margin: 19px 45px 15px;
+    background: #fff;
+    color: #B11313;
+    font-size: 13px;
+    border: 1px solid #ffffff;
+    outline: none;
+    cursor: pointer;
+    width: 
+    150px;
+}
