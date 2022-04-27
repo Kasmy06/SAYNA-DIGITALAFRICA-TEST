@@ -226,6 +226,14 @@ footer p{
     150px;
 }
 .icon{
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    width: 400px;
+    height: 60px;
+    margin: 20px auto;
+}
+i{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #B11313;
 }
