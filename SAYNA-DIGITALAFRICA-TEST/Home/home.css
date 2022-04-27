@@ -225,3 +225,7 @@ footer p{
     width: 
     150px;
 }
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
